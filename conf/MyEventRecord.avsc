@@ -1,0 +1,21 @@
+{
+  "name": "tracking",
+  "type": "record",
+  "fields": [
+    { "name": "email_connexion", "type": ["null", "string"], "default": null},
+    { "name": "searched_term",  "type": ["null", "string"], "default": null },
+    { "name": "user_country", "type": "string" },
+    { "name": "ip", "type": "string" },
+    { "name": "browser_name", "type": "string" },
+    { "name": "navigator_app_name", "type": "string" },
+    { "name": "navigator_user_agent", "type": "string" },
+    { "name": "os_name", "type": "string" } ,
+    { "name": "localPath",  "type": ["null", "string"], "default": null } , 
+    { "name": "timestamp",  "type": "long" } ,
+    { "name": "sessionField",  "type": ["null", "string"], "default": null },
+    { "name": "first",  "type": ["null", "boolean"], "default": null },
+    { "name": "partyField",  "type": ["null", "string"], "default": null } ,
+    { "name": "eventTypeField",  "type": ["null", "string"], "default": null }
+   
+  ]
+}
